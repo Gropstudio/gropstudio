@@ -1,0 +1,287 @@
+/* header */
+
+
+header{
+
+    position: absolute;
+    width:100%;
+    height: 124px;
+    left: 0px;
+    top: 0px;
+    background: transparent;
+    margin-bottom: 10px;
+}
+    
+nav{
+        margin-left: 600px;  
+}
+    
+    
+nav a
+    { 
+        display:inline-block;
+        margin-left: 10px;
+        margin-top: 40px;
+        font-size: 20px;
+        transition: color 0.4s;
+        font-family: Myriad Pro; 
+        color: #6487A5;
+       
+}
+    
+nav a:hover
+    { 
+        color: #2ED199;
+        transition: color 0.4s;
+        
+}
+    
+    
+    
+nav ul li 
+    {
+       
+        display: inline-block;
+        padding-left: 5px; 
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-right: 20px;
+    
+}
+    
+    
+    
+    
+ul
+   {
+        list-style: none;
+}
+    
+    
+a
+    {
+       text-decoration: none; 
+       color: black;
+}
+    
+.imggrop{
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 170px;
+}
+
+
+
+/*page*/
+
+
+
+
+.paragraphe h1
+{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: Myriad Pro; 
+    margin-top: 80px; 
+    margin-bottom: 75px;
+
+}
+
+
+.paragraphe, p
+{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    font-family: Myriad Pro; 
+    margin-top: 20px;
+
+}
+
+
+.paragraphe, a
+{
+    color: #56738C;
+    font-size: 30px;
+    text-align: center;
+    font-family: Myriad Pro; 
+    margin-top: 30px;
+
+}
+
+
+.paragraphe, a:hover
+{
+    color: #2ED199;
+    transition: 0.4s;
+    
+}
+
+
+body
+{   
+    margin-top: 180px;
+    padding: 0px;
+    background-image: url("images/imgagence2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+.agencefooter
+{
+    background-color: #3B566E;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    font-size: 5px;
+}
+ 
+
+.paragraphe, h2
+{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    font-family: Myriad Pro; 
+    margin-top: 70px; 
+    margin-bottom: 10px;
+}
+
+
+.p2
+{
+    text-align: center;
+    color: #56738C;
+    font-size: 30px;
+    font-family: Myriad Pro; 
+    margin-top: 20px;
+    display: inline-block;  
+    border: solid; 
+    border-radius: 15px;
+    border-color: #3B566E;
+    padding: 8px;
+    margin: 60px;  
+}
+
+
+.p2:hover
+{
+    border-color: #2ED199;
+    transition: 0.4s;
+    color: #3B566E;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+
+.expertise
+{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+/**************************/
+/****** Nous 3 têtes ******/
+/**************************/
+.nous 
+{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+
+.david
+{
+    height: 299px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top:30px;
+    
+}
+
+
+
+.david:hover
+{
+    opacity: 0.6;
+    transition: 0.4s;
+
+}
+
+.tristan
+{
+    height: 303px;
+    width: 325px;
+    border-radius: 60%;
+    margin-top:30px;
+    margin-left: 100px;
+    
+}
+
+.tristan:hover
+{
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.jean
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top:30px;
+    margin-left: 100px;
+}
+
+.jean:hover
+{
+    opacity: 0.6;
+    transition: 0.4s;
+
+}
+
+.videopresentation
+{
+    margin-top: 75px;
+
+}
+
+
+
+
+
+/* footer 
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 55px;
+    left: 0%;
+    bottom: -6px;
+    background: transparent;
+    text-align: center;
+    color: white;
+}
+*/
+
+.footerc{
+    height: 40px;
+    background: transparent;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+footer p{
+    font-size: 15px;
+}
